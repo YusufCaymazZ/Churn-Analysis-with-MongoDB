@@ -153,7 +153,7 @@ To run the analysis and ensure everything works correctly, follow these steps:
    The training history and model weights are saved in the `app/figz/` folder as images. You can view these files to analyze the model's learning process.
 
    Example plot for training history:
-   ![Training History](app/figz/history_plot.png)
+   ![Training History](app/figz/Biases-of-Layer-3.png)
 
 7. **Review the Saved Model**  
    The best model is saved in the `models/` directory. This model can be reloaded later to make further predictions or fine-tune it.
@@ -174,29 +174,23 @@ To visualize the training history:
 
    Example of a training history plot:
    
-   ![Training History](app/figz/history_plot.png)
+   ![Training History](app/figz/summerized_model_history_seaborn.png)
 
 2. **Loss vs Epoch Curve**: A curve showing the loss (or error) value at each epoch during training. This can be helpful to see whether the model converges properly or if more epochs are needed.
 
    Example of a loss vs epoch curve:
    
-   ![Epoch vs Loss](app/figz/loss_vs_epoch.png)
+   ![Epoch vs Loss](app/figz/summerized_loss_seaborn.png)
 
 ### Visualizing Model Weights
 
 Another important aspect is to visualize the model's weights. This can be done by using techniques such as histograms or heatmaps. These visualizations show how the model’s weights change during training and can offer insights into the model's inner workings.
 
-- **Weight Distribution**: A histogram or a bar plot showing the distribution of weights for different layers in the neural network model.
-
-   Example of weight distribution plot:
-   
-   ![Weight Distribution](app/figz/weight_distribution.png)
-
 - **Heatmap of Weights**: A heatmap of the model's weights provides a visual representation of the weight matrix for each layer.
 
    Example of heatmap of weights:
    
-   ![Weight Heatmap](app/figz/weight_heatmap.png)
+   ![Weight Heatmap](app/figz/Heatmap-of-Weights-in-Layer-2.png)
 
 ### Saving and Viewing the Visualizations
 
