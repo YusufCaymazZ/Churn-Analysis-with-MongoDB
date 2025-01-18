@@ -1,0 +1,10 @@
+pandas
+numpy == 1.24.3
+matplotlib
+seaborn
+scikit-learn
+python-dotenv
+pymongo
+tensorflow
+streamlit
+pillow
