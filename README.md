@@ -176,12 +176,6 @@ To visualize the training history:
    
    ![Training History](app/figz/summerized_model_history_seaborn.png)
 
-2. **Loss vs Epoch Curve**: A curve showing the loss (or error) value at each epoch during training. This can be helpful to see whether the model converges properly or if more epochs are needed.
-
-   Example of a loss vs epoch curve:
-   
-   ![Epoch vs Loss](app/figz/summerized_loss_seaborn.png)
-
 ### Visualizing Model Weights
 
 Another important aspect is to visualize the model's weights. This can be done by using techniques such as histograms or heatmaps. These visualizations show how the model’s weights change during training and can offer insights into the model's inner workings.
